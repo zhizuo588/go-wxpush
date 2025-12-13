@@ -13,7 +13,7 @@
 ✅ 真正的微信原生弹窗 + 声音提醒  
 ✅ 支持多用户  
 ✅ 提供免费服务[https://push.hzz.cool](https://push.hzz.cool)（请勿滥用）  
-✅ 跳转稳定，自带消息详情页面 (默认使用[https://push.hzz.cool/detail/](https://push.hzz.cool/detail/), 可自己部署后使用参数替换)  
+✅ 跳转稳定，自带消息详情页面 (默认使用[https://push.hzz.cool/detail](https://push.hzz.cool/detail), 可自己部署后使用参数替换)  
 ✅ 可无限换皮肤 (使用项目[wxpushSkin](https://github.com/frankiejun/wxpushSkin))
 
 ## ⚠️ 部署条件
@@ -33,8 +33,8 @@
 ### [下载编译好的文件启动](https://github.com/hezhizheng/go-wxpush/releases/)
 
 - 启动参数
-    * 命令行启动参数(可不加，启动之后直接在url上拼接参数也可)  `./go-wxpush_windows_amd64.exe -port "5566" -title "测试标题" -content "测试内容" -appid "xxx" -secret "xxx" -userid "xxx-k08" -template_id "xxx-Ks_PwGm--GSzllU" -base_url "https://hzz.cool"`
-    *  url请求参数(get)  `与命令行参数名称一致` `/wxsend?appid=xxx&secret=xxx&userid=xxx-k08&template_id=xxx-Ks_PwGm--GSzllU&base_url=https://hzz.cool&content=保持微笑，代码无 bug！`
+    * 命令行启动参数(可不加，启动之后直接在url上拼接参数也可)  `./go-wxpush_windows_amd64.exe -port "5566" -title "测试标题" -content "测试内容" -appid "xxx" -secret "xxx" -userid "xxx-k08" -template_id "xxx-Ks_PwGm--GSzllU" -base_url "https://push.hzz.cool"`
+    *  url请求参数(get)  `与命令行参数名称一致` `/wxsend?appid=xxx&secret=xxx&userid=xxx-k08&template_id=xxx-Ks_PwGm--GSzllU&base_url=https://push.hzz.cool&content=保持微笑，代码无 bug！`
 
 ### 自行编译可执行文件(跨平台)
 
