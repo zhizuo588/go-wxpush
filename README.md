@@ -150,5 +150,3 @@ curl --location --request POST 'http://127.0.0.1:5566/wxsend' \
 ## 📜 许可证
 
 本项目采用 [MIT License](./LICENSE.txt) 开源许可证。
-
-推荐搭配：Windows crontab
