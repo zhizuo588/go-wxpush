@@ -9,7 +9,7 @@
 ## ✨ 特性
 
 ✅ 完全免费，下载即使用  
-✅ 支持 Docker 一键部署  
+✅ 支持 Docker 一键部署（镜像容器大小仅2MB）  
 ✅ 每天 10 万次额度，个人用不完  
 ✅ 真正的微信原生弹窗 + 声音提醒  
 ✅ 支持多用户  
@@ -45,6 +45,7 @@
 gox -osarch="windows/amd64" -ldflags "-s -w" -gcflags="all=-trimpath=${PWD}" -asmflags="all=-trimpath=${PWD}"
 gox -osarch="darwin/amd64" -ldflags "-s -w" -gcflags="all=-trimpath=${PWD}" -asmflags="all=-trimpath=${PWD}"
 gox -osarch="linux/amd64" -ldflags "-s -w" -gcflags="all=-trimpath=${PWD}" -asmflags="all=-trimpath=${PWD}"
+gox -osarch="linux/arm64" -ldflags "-s -w" -gcflags="all=-trimpath=${PWD}" -asmflags="all=-trimpath=${PWD}"
 ```
 
 ### 🐳 Docker 启动
@@ -68,9 +69,9 @@ docker run -d -p 5566:5566 --name go-wxpush0 go-wxpush:v2 \
 ### 🐳 Docker 一键部署
 ```
 # 重新部署请先拉一遍最新的镜像
-docker pull hezhizheng/go-wxpush:v3
+docker pull hezhizheng/go-wxpush:v4
 # 参数格式与终端启动保持一致, 替换成实际值即可
-docker run -it -d -p 5566:5566 --init --name go-wxpush3 hezhizheng/go-wxpush:v3 \
+docker run -it -d -p 5566:5566 --init --name go-wxpush4 hezhizheng/go-wxpush:v4 \
 -port "5566" \
 -title "测试标题5566" \
 -content "测试内容5566" \
