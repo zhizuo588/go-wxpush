@@ -6,6 +6,11 @@
 <img src="https://s2.loli.net/2026/01/23/sZNu9dCtIkFS4D7.png">
 </p>
 
+## 🚀 广告
+自用机场推荐,不贵、稳定、晚高峰不卡 [TaiShan Net](https://jp.taishan.pro/register?code=sy3Mfx19)
+
+![xxx](https://i.ibb.co/5xB4Hp1V/Pix-Pin-2026-03-03-00-26-53.jpg)
+
 ## ✨ 特性
 
 ✅ 完全免费，下载即使用  
@@ -14,8 +19,7 @@
 ✅ 真正的微信原生弹窗 + 声音提醒  
 ✅ 支持多用户  
 ✅ 提供免费服务[https://push.hzz.cool](https://push.hzz.cool)（请勿滥用）  
-✅ 跳转稳定，自带消息详情页面 (默认使用[https://push.hzz.cool/detail](https://push.hzz.cool/detail), 可自己部署后使用参数替换)  
-✅ 可无限换皮肤 (使用项目[wxpushSkin](https://github.com/frankiejun/wxpushSkin))  感谢 [frankiejun/wxpush](https://github.com/frankiejun/wxpush)
+✅ 跳转稳定，自带消息详情页面 (默认使用[https://push.hzz.cool/detail](https://push.hzz.cool/detail), 可自己部署后使用参数替换)
 
 ## ⚠️ 部署条件
 
@@ -193,3 +197,9 @@ curl --location --request POST 'http://127.0.0.1:5566/wxsend' \
 ## 📜 许可证
 
 本项目采用 [MIT License](./LICENSE.txt) 开源许可证。
+
+## 📁 相关项目
+
+- [frankiejun/wxpush](https://github.com/frankiejun/wxpush) (特别感谢)
+- [wxpushSkin](https://github.com/frankiejun/wxpushSkin)
+- [gotify的微信消息服务](https://github.com/Wuqiyang312/gotify-wechat-plugin)
